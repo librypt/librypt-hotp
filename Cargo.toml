@@ -1,0 +1,12 @@
+[package]
+name = "librypt-hotp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+librypt-mac = { version = "0.1", git = "https://www.github.com/librypt/librypt-mac" }
+librypt-hash = { version = "0.1", git = "https://www.github.com/librypt/librypt-hash" }
+librypt-mac-hmac = { version = "0.1", git = "https://www.github.com/librypt/librypt-mac-hmac" }
+
+[dev-dependencies]
+librypt-hash-sha1 = { version = "0.1", git = "https://www.github.com/librypt/librypt-hash-sha1" }
